@@ -1,0 +1,209 @@
+/* font-family: 'Bungee', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+/* *{
+  border: 1px solid red;
+} */
+
+body{
+    margin : 0 ;
+    text-align: center ;
+  }
+  
+   /* MAIN SECTION  */
+  .main-header{
+    background-image: url("images/pexels-kai-pilger-1341279.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    height: 700px ;
+    margin-bottom: -50px;
+  }
+  
+  .header-script{
+    padding-top: 20% ;
+    margin:0 auto ;
+    font-family: 'Dancing Script', cursive;
+    color: #fff ;
+    font-size: 3.9rem ;
+  }
+  
+  .sub-script{
+    filter: brightness(0.75);
+    color: #9696b9 ;
+    font-size: 1.5rem;
+    margin :0 auto;
+  }
+  
+  /* MAIN SECTION MEDIA  */
+  @media (max-width: 800px){
+    .main-header{
+      background-image: url("images/pexels-kai-pilger-1341279.jpg") ;
+      background-repeat: no-repeat;
+      background-size: 100% ;
+      height: 300px ;
+      /* margin-bottom: -50px; */
+    }
+  
+    .header-script{
+      padding-top: 20% ;
+      margin:0 auto ;
+      font-family: 'Dancing Script', cursive;
+      color: #fff ;
+      font-size: 2rem ;
+    }
+  
+    .sub-script{
+      filter: brightness(0.75);
+      color: #9696b9 ;
+      font-size: 1rem;
+      margin :0 auto;
+    }
+  }
+  
+  @media (max-width: 350px){
+    .header-script{
+      font-size: 3rem ;
+    }
+  }
+  
+  /* INTRO SECTION */
+  .intro-script{
+    height: 690px ;
+    margin-top : 50px;
+  }
+  
+  .human-png{
+    height: 150px ;
+    margin-top: 200px ;
+    border:4px solid #000 ;
+    border-radius: 100% ;
+    background-color: #9696b9 ;
+  }
+  
+  .sub-script-intro{
+    margin: 40px 0 0 0;
+    font-family:  cursive;
+    font-weight : 900 ;
+    font-size: 2.8rem ;
+    padding : 25px auto ;
+  }
+  
+  .sub-script-intro-1{
+    font-family: 'Ubuntu', sans-serif;
+    width : 50% ;
+    font-weight: 800;
+    margin: 3% auto 15% auto;
+    font-size : 1.7rem ;
+    color : #9696b9 ;
+  }
+  
+  @media (max-width: 800px){
+    .sub-script-intro{
+      padding-top: 0 ;
+    }
+  }
+  
+  /* SKILLS SECTION */
+  
+  .skills{
+    background-color : #1B1F3A ;
+    color : #fff ;
+  }
+  
+  .skill-text-main-header{
+    padding-top: 100px ;
+    font-size : 3rem ;
+    font-family: cursive;
+    font-weight: 800 ;
+  }
+  
+  .sub-script-skill-head{
+    font-family: 'Montserrat', sans-serif;
+    font-size : 2.5rem ;
+    font-weight: 600 ;
+    filter:brightness(0.87);
+  }
+  
+  .sub-script-skill{
+    font-family: 'Ubuntu', sans-serif;
+    font-size : 1.6rem ;
+    color : #9696b9 ;
+    margin:0 auto;
+    padding-bottom: 20px ;
+    width: 50% ;
+  }
+  
+  .script-bottom{
+    padding-bottom: 120px;
+  }
+  
+  
+  /* contact me  */
+  .contact-me{
+    height: 690px ;
+    margin-top : 50px;
+  }
+  
+  .get-in-touch{
+    margin: 60px 0 0 0;
+    font-family:  cursive;
+    font-weight : 900 ;
+    font-size: 2.8rem ;
+    padding-top : 50px;
+    opacity : 0.77 ;
+  }
+  .get-in-touch-intro{
+    margin: 70px 0 0 0;
+    font-family:  cursive;
+    font-weight : 900 ;
+    font-size: 1.4rem ;
+    padding : 25px auto ;
+  }
+  
+  .sub-script-contact-me{
+    font-family: 'Ubuntu', sans-serif;
+    width : 50% ;
+    font-weight: 800;
+    margin: 0 auto ;
+    margin-top: 5%;
+    margin-bottom: 5% ;
+    font-size : 1rem ;
+    color : #9696b9 ;
+  }
+  
+  .contact-button{
+    background-image: url("images/pexels-kai-pilger-1341279.jpg") ;
+    font-size: 1.3rem ;
+    font-family: 'Ubuntu', sans-serif;
+    color: white ;
+    margin: 23% auto;
+    text-decoration:none;
+    padding: 16px 25px ;
+    border :1px solid black ;
+    border-radius : 18px ; 
+  }
+  
+  .contact-me-links{
+    height : 190px ;
+    margin-top: 100px ;
+    background-color: #000;
+    display : flex ; 
+  }
+  
+  .r1{
+    color: #fff;
+    margin : 50px auto;
+    text-decoration : none;
+    text-align: center;
+  }
+  
+  .copyright{
+    background-color: #000;
+    color :#fff ;
+    font-size: 1.3rem ;
+    text-align: center  ;
+    margin-top: -25px ;
+    padding-left: 23px ;
+  }
