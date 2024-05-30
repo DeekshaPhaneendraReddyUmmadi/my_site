@@ -1,2 +1,2 @@
 # my_site
-Live preview : https://inahp1239.github.io/my_site/
+Live preview : https://deekshaphaneendrareddyummadi.github.io/my_site/
